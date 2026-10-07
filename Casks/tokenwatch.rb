@@ -1,13 +1,13 @@
 cask "tokenwatch" do
-  version "1.10.0-beta.1"
-  sha256 "c320da2a83cbae4f3678d1865cb95ac58d8f34299a8445ef15edeb5cbee97ef5"
+  version "1.10.0-beta.4"
+  sha256 "a8f1fc83e1a2f91122aa246cc52535547fc282631985f66ddfd42402df9c336f"
 
   url "https://github.com/MetaPouch/tokenwatch/releases/download/v#{version}/TokenWatch-#{version}.dmg"
   name "TokenWatch"
   desc "Menu-bar usage tracker for AI subscriptions, routing providers, and API keys"
   homepage "https://tokenwatch.fyi"
 
-  auto_updates false
+  auto_updates true
   depends_on macos: :tahoe
 
   app "TokenWatch.app"
